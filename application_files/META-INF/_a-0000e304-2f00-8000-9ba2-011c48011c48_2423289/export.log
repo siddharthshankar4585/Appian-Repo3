@@ -1,0 +1,56 @@
+Success (2):
+content 357903 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423294 "STF Rules and Expressions"
+application 357902 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423289 "Test App"
+
+Trace:
+2019-08-26 19:00:00.019 DEBUG application 357902 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423289 Begin transport.
+2019-08-26 19:00:00.019 DEBUG application 357902 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423289 Retrieving object data.
+2019-08-26 19:00:00.023 DEBUG application 357902 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423289 App associated objects: [content=[_a-0000e304-2f00-8000-9ba2-011c48011c48_2423294]]
+2019-08-26 19:00:00.025 DEBUG application 357902 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423289 Invalid associated objects: []
+2019-08-26 19:00:00.025 DEBUG application 357902 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423289 Adding valid associated objects to be exported: GlobalBindingMap[content={_a-0000e304-2f00-8000-9ba2-011c48011c48_2423294=357903}]
+2019-08-26 19:00:00.025 DEBUG application 357902 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423289 Setting uuids of object references.
+2019-08-26 19:00:00.025 DEBUG application 357902 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423289 Processing reference: Application.forum
+2019-08-26 19:00:00.025 DEBUG application 357902 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423289 Processing reference: Application.parent
+2019-08-26 19:00:00.027 DEBUG application 357902 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423289 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@673745a2[
+  ContentRole[name=readers,inherit=false,allowForAll=false]
+  ContentRole[name=authors,inherit=false,allowForAll=false]
+  ContentRole[name=administrators,inherit=false,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=1:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=false,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2019-08-26 19:00:00.027 DEBUG application 357902 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423289 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
+2019-08-26 19:00:00.027 DEBUG application 357902 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423289 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2019-08-26 19:00:00.027 DEBUG application 357902 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423289 Processing reference: ContentRole[name=administrators,inherit=false,allowForAll=false]
+2019-08-26 19:00:00.027 DEBUG application 357902 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423289 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2019-08-26 19:00:00.027 DEBUG application 357902 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423289 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2019-08-26 19:00:00.027 DEBUG application 357902 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423289 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2019-08-26 19:00:00.029 DEBUG content 357903 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423294 Begin transport.
+2019-08-26 19:00:00.029 DEBUG content 357903 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423294 Retrieving object data.
+2019-08-26 19:00:00.037 DEBUG content 357903 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423294 Setting uuids of object references.
+2019-08-26 19:00:00.037 DEBUG content 357903 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423294 Processing reference: RulesFolder.forum
+2019-08-26 19:00:00.037 DEBUG content 357903 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423294 Processing reference: RulesFolder.parent
+2019-08-26 19:00:00.039 DEBUG content 357903 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423294 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@53ad8d7[
+  ContentRole[name=readers,inherit=false,allowForAll=false]
+  ContentRole[name=authors,inherit=false,allowForAll=false]
+  ContentRole[name=administrators,inherit=false,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=1:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=false,SEC_INH_ADMIN=false,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2019-08-26 19:00:00.039 DEBUG content 357903 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423294 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
+2019-08-26 19:00:00.039 DEBUG content 357903 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423294 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2019-08-26 19:00:00.039 DEBUG content 357903 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423294 Processing reference: ContentRole[name=administrators,inherit=false,allowForAll=false]
+2019-08-26 19:00:00.039 DEBUG content 357903 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423294 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2019-08-26 19:00:00.039 DEBUG content 357903 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423294 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2019-08-26 19:00:00.039 DEBUG content 357903 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423294 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2019-08-26 19:00:00.039 DEBUG content 357903 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423294 Completing produce.
+2019-08-26 19:00:00.039 DEBUG content 357903 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423294 Exporting binary resources.
+2019-08-26 19:00:00.039 DEBUG content 357903 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423294 Serializing object to XML.
+2019-08-26 19:00:00.042 DEBUG content 357903 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423294 Object transported.
+2019-08-26 19:00:00.042 DEBUG application 357902 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423289 Completing produce.
+2019-08-26 19:00:00.042 DEBUG application 357902 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423289 Exporting binary resources.
+2019-08-26 19:00:00.042 DEBUG application 357902 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423289 Serializing object to XML.
+2019-08-26 19:00:00.046 DEBUG application 357902 _a-0000e304-2f00-8000-9ba2-011c48011c48_2423289 Object transported.
